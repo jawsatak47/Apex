@@ -869,7 +869,7 @@ Write each phase as a dense, specific 2-3 sentence analysis. Use exact biologica
             <div className="hdr-sub">PREDATOR INTELLIGENCE SYSTEM</div>
           </div>
           <div className="hdr-right">
-            <div className="hdr-badge live pulse">◉ LIVE</div>
+            <div className="hdr-badge live pulse">◉ ALIVE</div>
             <div className="hdr-badge">{PREDATORS.length} PREDATORS</div>
           </div>
         </div>
