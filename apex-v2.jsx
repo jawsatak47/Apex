@@ -108,14 +108,7 @@ const PREDATORS = [
     sys: { detection: 88, approach: 78, strike: 72, kill: 80 },
     prey: ["Elk", "Moose Calf", "Bison", "Whitetail Deer", "Muskox"],
     envs: ["Boreal Forest", "Open Tundra", "Mountain Valley", "Grassland Plains"]
-  },
-  {
-    id: "lion",
-    name: "African Lion",
-    image: "images/lion.jpg",
-    identity: "Pack-based ambush predator with coordinated kill tactics",
-    stats: { speed: 7, strength: 9, stealth: 7, intelligence: 8, lethality: 8 }
-  },
+  }
 ];
 
 const CATEGORIES = [
@@ -876,7 +869,7 @@ Write each phase as a dense, specific 2-3 sentence analysis. Use exact biologica
             <div className="hdr-sub">PREDATOR INTELLIGENCE SYSTEM</div>
           </div>
           <div className="hdr-right">
-            <div className="hdr-badge live pulse">◉ ALIVE</div>
+            <div className="hdr-badge live pulse">◉ LIVE</div>
             <div className="hdr-badge">{PREDATORS.length} PREDATORS</div>
           </div>
         </div>
