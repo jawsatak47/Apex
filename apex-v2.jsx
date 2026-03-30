@@ -361,7 +361,7 @@ const Loading = () => (
 // MAIN APP
 // ═══════════════════════════════════════════════════════════════
 
-export default function App() {
+ default function App() {
   const [screen, setScreen] = useState("nexus");
   const [predator, setPredator] = useState(null);
   const [tier, setTier] = useState(1);
