@@ -879,3 +879,5 @@ Write each phase as a dense, specific 2-3 sentence analysis. Use exact biologica
     </>
   );
 }
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
