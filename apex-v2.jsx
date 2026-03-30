@@ -356,7 +356,23 @@ const Loading = () => (
     <span>PROCESSING INTELLIGENCE</span>
   </div>
 );
-
+function PredatorList({ data }) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+      {data.map((predator, index) => (
+        <div 
+          key={index} 
+          className="bg-slate-800 p-4 rounded-lg border border-slate-700 cursor-pointer hover:border-blue-500 transition-colors"
+          onClick={() => alert(JSON.stringify(predator.stats, null, 2))}
+        >
+          <h2 className="text-xl font-bold text-blue-400">{predator.name}</h2>
+          <p className="text-slate-300 italic mb-2">{predator.identity}</p>
+          <img src={predator.image} style={{ width: '100%', borderRadius: '8px' }} alt={predator.name} />
+        </div>
+      ))}
+    </div>
+  );
+}
 // ═══════════════════════════════════════════════════════════════
 // MAIN APP
 // ═══════════════════════════════════════════════════════════════
