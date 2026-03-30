@@ -108,7 +108,14 @@ const PREDATORS = [
     sys: { detection: 88, approach: 78, strike: 72, kill: 80 },
     prey: ["Elk", "Moose Calf", "Bison", "Whitetail Deer", "Muskox"],
     envs: ["Boreal Forest", "Open Tundra", "Mountain Valley", "Grassland Plains"]
-  }
+  },
+  {
+    id: "lion",
+    name: "African Lion",
+    image: "images/lion.jpg",
+    identity: "Pack-based ambush predator with coordinated kill tactics",
+    stats: { speed: 7, strength: 9, stealth: 7, intelligence: 8, lethality: 8 }
+  },
 ];
 
 const CATEGORIES = [
