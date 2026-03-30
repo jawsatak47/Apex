@@ -1,3 +1,4 @@
+const { useState, useEffect, useCallback } = React;
 
 // ═══════════════════════════════════════════════════════════════
 // DATA LAYER
@@ -878,8 +879,3 @@ Write each phase as a dense, specific 2-3 sentence analysis. Use exact biologica
     </>
   );
 }
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App /> 
-  </React.StrictMode>
-)
